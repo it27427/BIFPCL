@@ -4,9 +4,11 @@ $white: hsl(0, 0%, 100%); //#ffffff
 $black: hsl(0, 0%, 0%); //#000000
 
 // THEME-COLORS
-$primary: hsl(18, 60%, 81%); //#ECC3B2
+$primary: hsl(265, 70%, 58%); //#884bdf
 $primaryLight: hsl(13, 47%, 94%); //#F7ECE9
 $primaryDark: hsl(18, 50%, 72%); //#DBA994
+
+$headlinebg: hsl(248, 53%, 58%); //#6a5acd
 
 // BACKGROUND-COLORS
 $reviewhoverbg: hsla(18, 60%, 81%, 0.2); //rgba(236, 195, 178, 0.2)
@@ -29,6 +31,7 @@ $pendingbg: hsla(47, 100%, 51%, 0.1); //rgba(255, 201, 7, 0.1)
 $pendingcolor: hsl(47, 100%, 51%); //#FFC907
 $confirmedbg: hsla(173, 83%, 37%, 0.1); //rgba(16, 171, 153, 0.1)
 $confirmedcolor: hsl(173, 83%, 37%); //#10AB99
+$yellow: hsl(60, 100%, 50%); //#ffff00
 
 $artistcolor: hsl(283, 39%, 53%); //#9B59B6
 $dermatologistbg: hsla(195, 100%, 32%, 0.1); //rgba(0, 125, 165, 0.1)
@@ -78,3 +81,4 @@ $buttonshadow: 0 0.0625rem 0.125rem $btnshadow;
 
 $textshade: rgba(18, 18, 18, 0.25);
 $textshadow: 0 0.25rem 0.5rem $textshade;
+$headershadow: 0 4px 20px rgb(0 0 0 / 10%);

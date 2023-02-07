@@ -1,6 +1,54 @@
 @use '../global'as *;
 @use '../partials'as *;
 
+.headline-section {
+  background: $headlinebg;
+  box-shadow: $headershadow;
+
+  marquee {
+    @include w100;
+    height: size(40);
+    @include flex-center-vert;
+
+    .detail {
+      @include flex-center-vert;
+      gap: size(8);
+
+      .icon {
+        @include square(34);
+        @include flex-center;
+        overflow: hidden;
+
+        img {
+          @include wh100;
+          object-fit: cover;
+        }
+      }
+
+      .info {
+        @include flex-center-vert;
+        gap: size(8);
+
+        &-text {
+          color: $white;
+          font-size: size(14);
+          font-weight: 500;
+        }
+
+        &-link {
+          font-size: size(14);
+          color: $yellow;
+          @include transitionscolor;
+
+          @include hover {
+            color: $pendingcolor;
+          }
+        }
+      }
+    }
+  }
+}
+
 /**======= HOME-BANNER =======**/
 .homebanner {
   position: relative;

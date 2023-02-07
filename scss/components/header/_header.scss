@@ -3,7 +3,7 @@
 
 .header {
   background: $white;
-  filter: $dropshadow;
+  box-shadow: $headershadow;
   @include flex-center-column;
   @include w100;
   
